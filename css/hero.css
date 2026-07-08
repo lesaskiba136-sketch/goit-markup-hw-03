@@ -1,0 +1,26 @@
+ .hero {
+    background-color: rgba(46, 47, 66, 1);
+ }
+
+.title {
+ color: rgba(255, 255, 255, 1);   
+ font-weight:700;
+ font-size: 56px;
+ line-height: 1.07;
+ letter-spacing: 0.02em;
+ text-align: center;
+}
+
+.button {
+    font-weight:500;
+    font-size:16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4d5ae5;
+    cursor: pointer;
+}
+.button:hover,
+.button:focus {
+    background-color: #404bbf;
+}

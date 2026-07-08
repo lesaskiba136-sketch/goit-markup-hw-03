@@ -1,0 +1,19 @@
+.footer {
+background-color: rgba(46, 47, 66, 1);
+}
+.logo-footer {
+color: rgba(244, 244, 253, 1);
+text-transform: uppercase;
+font-weight:700;
+line-height: 1.33;
+letter-spacing: 0.03em;
+font-size: 18px;
+font-family: 'Raleway', sans-serif;
+}
+.description-new-edd {
+color: rgba(244, 244, 253, 1);
+font-weight:400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
