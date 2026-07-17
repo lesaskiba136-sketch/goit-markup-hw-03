@@ -13,3 +13,20 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 }
+
+.portfolio-list {
+display: flex;
+flex-wrap: wrap;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 24px;
+}
+
+.container {
+display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: column;
+gap: 72px;
+}

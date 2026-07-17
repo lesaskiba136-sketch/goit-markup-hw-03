@@ -1,5 +1,13 @@
  .hero {
     background-color: rgba(46, 47, 66, 1);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 0px;
+    padding: 188px 0px;
+    width: 1440px;
+    height: 600px;
  }
 
 .title {
@@ -19,6 +27,12 @@
     color: #fff;
     background-color: #4d5ae5;
     cursor: pointer;
+    display:flex;
+    align-items: center;
+    border-radius: 4px;
+    padding: 16px 32px;
+    
+    
 }
 .button:hover,
 .button:focus {

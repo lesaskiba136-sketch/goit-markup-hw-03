@@ -19,3 +19,11 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
+
+.features-list {
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+gap: 8px;
+}
+
