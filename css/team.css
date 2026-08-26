@@ -1,50 +1,48 @@
 .team {
-   background-color:  rgba(244, 244, 253, 1);
+  background-color: rgba(244, 244, 253, 1);
 }
 
 .title-team {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.1;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-    text-align: center;
-}
-.custom-heading {
-color: rgba(46, 47, 66, 1);
-font-weight:500;
-font-size: 20px;
-line-height: 1.2;
-letter-spacing: 0.02em;
-text-align: center;
-
-}
-.description {
-font-weight:400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-text-align: center;
-}
-
-.image-card {
-background-color: #ffffff
+  margin-bottom: 72px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
 }
 
 .team-list {
-display:flex;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: row;
-gap: 24px;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
 }
 
-.container {
-display: flex;
-align-items: center;
-justify-content: flex-start;
-flex-direction: column;
-gap: 72px;
+.image-card {
+  background-color: #ffffff;
+  border-radius: 0 0 4px 4px;
+  overflow: hidden;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
+.card-content {
+  padding: 32px 16px;
+}
+
+.custom-heading {
+  margin-bottom: 8px;
+  color: rgba(46, 47, 66, 1);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
