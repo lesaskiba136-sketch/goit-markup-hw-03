@@ -24,6 +24,7 @@
  letter-spacing: 0.02em;
  text-align: center;
 margin: 0;
+max-width: 496px;
 }
 
 .button {
@@ -44,4 +45,10 @@ margin: 0;
 .button:hover,
 .button:focus {
     background-color: #404bbf;
+}
+
+.hero-container {
+display: flex;
+flex-direction: column;
+gap: 48px;
 }
