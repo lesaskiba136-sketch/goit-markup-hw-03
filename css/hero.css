@@ -50,5 +50,4 @@ max-width: 496px;
 .hero-container {
 display: flex;
 flex-direction: column;
-gap: 48px;
 }

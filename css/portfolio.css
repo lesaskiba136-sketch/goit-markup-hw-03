@@ -10,7 +10,6 @@
 
 .portfolio-item {
   flex-basis: calc((100% - 48px) / 3);
-  border-bottom: 1px solid #e7e9fc;
 }
 
 .portfolio-content {
@@ -41,4 +40,5 @@
 
 .title-team {
   text-align:center;
+  margin-bottom: 72px;
 }
