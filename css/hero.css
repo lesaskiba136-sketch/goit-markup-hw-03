@@ -44,10 +44,12 @@ max-width: 496px;
 }
 .button:hover,
 .button:focus {
-    background-color: #404bbf;
+background-color: #404bbf;
+align-items: center
 }
 
 .hero-container {
 display: flex;
 flex-direction: column;
+gap: 48px;
 }
